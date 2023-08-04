@@ -4,12 +4,16 @@ import Primeiro from "./components/basicos/Primeiro"
 import ComParametro from "./components/basicos/Comparametro"
 import Aleatorio from "./components/basicos/Aleatorio";
 import Card from "./components/layout/Card";
+import Familia from "./components/basicos/Familia";
 // eslint-disable-next-line import/no-anonymous-default-export
 export default function (props){
     return (
         <>
         <h1>Fundamentos REACT</h1>
         <div className="cards">
+        <Card titulo="#05 - Componente Com Filhos" color="rgb(2, 55, 8)">
+            <Familia/>
+        </Card>
         <Card titulo="#04 - Exemplo Card" color="rgb(222, 5, 84)">
 
         </Card>
