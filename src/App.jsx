@@ -2,7 +2,7 @@ import React from "react";
 
 import Primeiro from "./components/basicos/Primeiro"
 import ComParametro from "./components/basicos/Comparametro"
-
+import Aleatorio from "./components/basicos/Aleatorio";
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default function (props){
@@ -16,7 +16,7 @@ export default function (props){
                 nota={10}
 
             />
-
+            <Aleatorio max={1} min={60}/>
         </>
     )
 }
