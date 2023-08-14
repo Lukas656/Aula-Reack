@@ -7,12 +7,20 @@ import Card from "./components/layout/Card";
 import Familia from "./components/basicos/Familia";
 import ListaAlunos from './components/repeticao/List';
 import Produtos from './components/repeticao/Produtos';
+import ParOuimpar from "./components/condicional/ParOuimpar";
+import UsuarioInfo from "./components/condicional/UsuarioInfo";
 // eslint-disable-next-line import/no-anonymous-default-export
 export default function (props){
     return (
         <>
         <h1>Fundamentos REACT</h1>
         <div className="cards">
+        <Card titulo="#08 - Tabela Produto" color="rgb(300, 100, 100)">
+            <UsuarioInfo usuario={{nome:'Lucas'}}/>
+        </Card>
+        <Card titulo="#08 - Tabela Produto" color="rgb(300, 100, 100)">
+            <ParOuimpar numero={22}/>
+        </Card>
         <Card titulo="#07 - Tabela Produto" color="rgb(3, 100, 100)">
             <Produtos/>
         </Card>
