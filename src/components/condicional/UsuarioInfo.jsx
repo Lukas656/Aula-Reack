@@ -7,12 +7,6 @@ export default (props)=>{
     
     return(
         <div>
-            {/* <IF test={usuario && usuario.nome}>
-                Seja Bem Vindo <strong>{usuario.nome}</strong>!
-            </IF>
-            <IF test={!usuario || !usuario.nome}>
-                Seja Bem Vindo <strong>Amigão</strong>!
-            </IF> */}
             <IF test={usuario && usuario.nome}>
                 Seja Bem Vindo <strong>{usuario.nome}</strong>!
                 <Else>
