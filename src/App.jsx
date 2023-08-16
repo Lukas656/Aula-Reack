@@ -47,7 +47,7 @@ export default function (props) {
                 <Card titulo="#11 - Componente Controlado (Input)" color="rgb(45, 20, 001)">
                     <Input />
                 </Card>
-                <Card titulo="#12 - Contador" color="rgb(45, 20, 081)">
+                <Card titulo="#12 e #13 - Contador" color="rgb(45, 20, 081)">
                     <Contador />
                 </Card>
             </div>
