@@ -13,6 +13,7 @@ import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
 import Input from "./components/formulario/Input";
 import Contador from "./components/contador/contador";
+import Mega from "./components/megasena/Mega";
 // eslint-disable-next-line import/no-anonymous-default-export
 export default function (props) {
     return (
@@ -49,6 +50,9 @@ export default function (props) {
                 </Card>
                 <Card titulo="#12 e #13 - Contador" color="rgb(45, 20, 081)">
                     <Contador />
+                </Card>
+                <Card titulo="#14 e #15 - Desafio MegaSena" color="rgb(970, 20, 01)">
+                    <Mega qtde={8}/>
                 </Card>
             </div>
         </>
