@@ -11,6 +11,7 @@ import ParOuimpar from "./components/condicional/ParOuimpar";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
 import DiretaPai from "./components/comunicacao/DiretaPai";
 import IndiretaPai from "./components/comunicacao/IndiretaPai";
+import Input from "./components/formulario/Input";
 // eslint-disable-next-line import/no-anonymous-default-export
 export default function (props) {
     return (
@@ -41,6 +42,9 @@ export default function (props) {
                 </Card>
                 <Card titulo="#10 - Comunicação Indireta" color="rgb(405, 200, 001)">
                     <IndiretaPai />
+                </Card>
+                <Card titulo="#11 - Componente Controlado (Input)" color="rgb(45, 20, 001)">
+                    <Input />
                 </Card>
             </div>
         </>
